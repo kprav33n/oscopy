@@ -2,8 +2,14 @@
 name = "oscopy"
 version = "0.1.0"
 authors = ["Praveen Kumar <praveen+git@kumar.in>"]
+description = """
+oscopy takes the standard input and places it on the system clipboard
+using OSC 52 escape sequence.
+"""
+license = "MIT OR Apache-2.0"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+base64 = "0.12.1"
